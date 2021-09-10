@@ -2,7 +2,7 @@ package week1;
 
 public class ExampleSix {
     public static void main(String[] args) {
-        int x = 1;
+        int x = 2;
         int y = 3;
         double z = 1;
     
