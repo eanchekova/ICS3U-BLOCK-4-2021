@@ -5,7 +5,7 @@ public class ExampleEight {
     public static void main(String[] args) {
         final int NUM_MARKS = 5;
         
-        int markOne = 78, markTwo = 87, markThree = 64, markFour = 95, markFive = 84;
+        int markOne = 77, markTwo = 87, markThree = 64, markFour = 95, markFive = 84;
 
         double average = (double)(markOne + markTwo + markThree + markFour + markFive) / NUM_MARKS;
 
