@@ -9,9 +9,9 @@ final int x = 7;
 
 
 final int y;
-y = 8;
+y = 7;
 
-final int NUM_STUDENTS = 18;
+final int NUM_STUDENTS = 19;
 //y++ cannot modify the variable once it is set if it is constant
 
 

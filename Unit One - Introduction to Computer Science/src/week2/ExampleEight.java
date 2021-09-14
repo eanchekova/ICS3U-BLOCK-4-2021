@@ -12,11 +12,11 @@ public class ExampleEight {
 
         System.out.println("The average is;" + average);
 
-        int x = (int) 3.7;
+        int x = (int) 4.7;
 
         double z = (double) 7;
 
-        int x = true; 
+        int x  = true; 
 
 
 
