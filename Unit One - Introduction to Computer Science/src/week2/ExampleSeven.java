@@ -12,7 +12,7 @@ final int y;
 y = 7;
 
 final int NUM_STUDENTS = 16;
-//y++ cannot modify the variable once it is set if it is constant
+//y++ cannot modify the variable once it is set if it is constant.
 
 
 

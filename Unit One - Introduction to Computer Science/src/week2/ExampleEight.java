@@ -16,7 +16,7 @@ public class ExampleEight {
 
         double z = (double) 7;
 
-        int x  = true; 
+        //int x  = true; 
 
 
 

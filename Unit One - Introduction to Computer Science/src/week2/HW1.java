@@ -122,7 +122,7 @@ public class HW1 {
        /**
         * 10.	Math.sqrt(x), where x is a value can be used to calculate the square root.
         *  Given an equation in the format from question 7.  Obtain the two roots. 
-        * Given a, b, and c.
+        * Given a, b, and c. 
         */
 
         int aa = 2; 
