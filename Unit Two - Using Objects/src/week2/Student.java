@@ -18,6 +18,7 @@ public class Student {
   private int totalMarks;
   private int numMarks;
   private double average;
+public int getAverage;
 
   /**
    * 
@@ -81,6 +82,14 @@ public class Student {
 
   private void calculateAverage() {
     average = (double) totalMarks / numMarks;
+  }
+
+  public String getName() {
+    return null;
+  }
+
+  public double getAverage() {
+    return 0;
   }
 
 }
