@@ -6,7 +6,7 @@ public class UnitTest {
         System.out.println(threeCopies("Computer", 2)); 
         System.out.println(removeChars("Computer Science", 3, 4));
         System.out.println(removeChars("Tired", 2, 3));
-        System.out.prinnln(sqrtSum(9999));
+        System.out.println(sqrtSum(9999));
     }
     /** 
      * write a function that accepts a String and an integer. return 3 copies 
