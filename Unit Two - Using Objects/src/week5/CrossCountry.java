@@ -68,7 +68,7 @@ public class CrossCountry {
 
 /**
  * @param timeInSeconds
- * @return the minutes and seconds in proper format 
+ * @return the time in proper format (mm:ss.sss)
  */
     private static String convertToTime(double timeInSeconds) {
         return String.format("%d:%06.3f", getMinutes(timeInSeconds), getSeconds(timeInSeconds));
@@ -76,7 +76,8 @@ public class CrossCountry {
     
 /**
  * @param totalSeconds
- * @return the part of the time that is seconds 
+ * @return this method uses the time (in seconds) and finds the seconds that are  left 
+ * once converting it to minutes 
  */
 
     public static double getSeconds(double totalSeconds) {
@@ -86,7 +87,7 @@ public class CrossCountry {
 
 /**
  * @param totalSeconds
- * @return the part of the time that is the minutes
+ * @return this method uses the time (in seconds) and finds the minutes
  */
 
     public static int getMinutes(double totalSeconds) {
@@ -96,7 +97,7 @@ public class CrossCountry {
 
 /**
  * @param time
- * @return the minutes and the seconds 
+ * @return rs the minutes and the seconds and the colon properly 
  */
 
     private static double convertToSeconds(String time) {
