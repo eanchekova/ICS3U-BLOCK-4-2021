@@ -2,10 +2,10 @@ package week6;
 
 public class WhileLoops {
     public static void main(String[] args) {
-        //exampleOne();
-        //exampleTwo();
+        exampleOne();
+        exampleTwo();
 
-        //System.out.println(exampleThree(10,28));
+        System.out.println(exampleThree(10,28));
 
         int numVowels = countVowels ("");
         System.out.println(numVowels);
