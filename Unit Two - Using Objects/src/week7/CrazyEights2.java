@@ -136,6 +136,12 @@ public class CrazyEights2 {
         + playerTotal(c2Hand, initialTopCard); 
      }
 
+     /**
+ * please dont fail me because i think this is all wrong
+ * What's the difference between Java and JavaScript?
+ * Java and JavaScript are similair in the same way car a carpet are.
+ */
+
    //The total points the player has 
     private static int playerTotal(String hand, String playerHand) {
         int score = 0; 
@@ -310,8 +316,3 @@ public class CrazyEights2 {
 }
 }
 
-/**
- * please dont fail me
- * What's the difference between Java and JavaScript?
- * Java and JavaScript are similair in the same way car a carpet are.
- */
