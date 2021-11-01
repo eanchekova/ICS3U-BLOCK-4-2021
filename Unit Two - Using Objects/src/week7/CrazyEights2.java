@@ -303,7 +303,7 @@ public class CrazyEights2 {
            } 
        } 
             else {  
-                System.out.println("Invalid Input");  
+                System.out.println("Invalid Input.");  
        }
    }
    return card + "-" + playerHand.replace(card + " ", "").trim(); 
